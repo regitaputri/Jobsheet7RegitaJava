@@ -75,5 +75,4 @@ public class Latihan1 {
             case 4: System.out.println ("nilai a => 3 atau 4"); break;
             case 5: System.out.println ("nilai a => 5"); break;
             default: System.out.println ("nilai a bukan antara 1-5");
-        }
-         }
+            
