@@ -24,5 +24,30 @@ public class SaranBahan2Resep {
         System.out.println("2. telur");
         System.out.print("masukkan no pilihan anda :");
         int bahan1 = scanner.nextInt();
+        
+        if(bahan1 == 1 || bahan1 == 2)
+        {
+            System.out.println("bahan kedua: ");
+            if(bahan 1 == 1) {
+                System.out.println("1. susu");
+                System.out.println("2. minyak goreng");
+                System.out.println("3. tidak ada");          
+        }else{
+                System.out.println("1. minyak goreng");
+                System.out.println("2. roti");
+                System.out.println("3. tidak ada");
+        }
+        System.out.print("masukkan no pilihan anda : ");
+        int bahan2 = scanner.nextInt();
+        
+        }else
+            System.out.println("mohon maaf pilihan tidak ditemukan," + "tidak dapat memberikan saran resep");
+        
+                
+                
+            
+        }
+            
+        }
     }
 }
